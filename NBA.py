@@ -8,7 +8,7 @@ import seaborn as sns
 np.set_printoptions(suppress=True, precision = 2)
 
 # View data
-nba = pd.read_csv('nba_games.csv')
+nba = pd.read_csv('nba_data.csv')
 nba.head()
 
 # Subset Data to 2010 Season, 2014 Season
